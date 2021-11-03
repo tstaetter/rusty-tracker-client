@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    // General options
+    "module": "commonjs",
+    "target": "es6",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "removeComments": true,
+    "noEmitOnError": true,
+    // Source map options
+    "sourceMap": true,
+    // Experimental features
+    "experimentalDecorators": true,
+    /*
+     * Code quality options
+     */
+    "noUnusedParameters": true,
+    "noErrorTruncation": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ]
+}
